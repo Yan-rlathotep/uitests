@@ -34,7 +34,7 @@ html {
 .menu-grid {
   display: grid;
   grid-row: 2;
-  grid-template-columns: var(--displaySize) minmax(20em, auto);
+  grid-template-columns: var(--displaySize) minmax(20em,auto);
   grid-template-rows: var(--displaySize) 1fr;
   grid-column-gap: 0.5em;
   grid-row-gap: 0.5em;
@@ -54,6 +54,7 @@ html {
   font-family: 'Courier New', Courier, monospace;
   font-size: 2em;
   font-weight: bold;
+  border: 0.01em solid #ffffff;
 }
 
 .menu-monitor{
@@ -79,9 +80,10 @@ html {
   border: 0.01em solid #ffffff;
 }
 
-.menu-monitor-stats:hover{
+/*.menu-monitor-stats:hover{
   color: #7efd72;
-}
+  border-color: #7efd72;
+}*/
 
 .menu-footer{
   display: grid;
@@ -122,6 +124,12 @@ html {
   border: 0.01em solid #fff435;
 }
 
-.box:hover{
+/*.box:hover{
   color: #7efd72;
+  border-color: #7efd72;
+}*/
+
+.hover:hover{
+  color: #7efd72;
+  border-color: #7efd72;
 }
