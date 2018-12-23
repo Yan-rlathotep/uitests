@@ -12,7 +12,6 @@
   <div class="main-header">
       <div class="box hover">MENU 1</div>
       <div class="box hover">MENU 2</div>
-      <div class="box hover">MENU 3</div>
     </div>
 
   <div class="menu-grid">
@@ -36,16 +35,13 @@
       </div>
     </div>
 
-    <div class="box hover">TEST</div>
-    <div class="box hover">TEST</div>
-
     <div class="menu-footer">
         <div class="menu-footer-tabs">
           <div class="box hover">TAB 1</div>
           <div class="box hover">TAB 2</div>
           <div class="box hover">TAB 3</div>
         </div>
-        <div class="menu-footer-actions">
+        <div class="menu-footer-actions" id="actions">
           <div class="box hover">ACTION</div>
           <div class="box hover">ACTION</div>
           <div class="box hover">ACTION</div>
@@ -64,6 +60,15 @@
       </div>
   </div>
 </div>
+
+<script>
+	var actionsGrid = document.getElementById("actions");
+	var actionsWidth = window.innerWidth/10*0.8;
+	var actionsGap = window.innerWidth/11*0.2;
+	actionsGrid.style.gridTemplateColumns = "repeat(10," + actionsWidth + "px)";
+	actionsGrid.style.gridAutoRows = actionsWidth + "px";
+	actionsGrid.style.gridColumnGap = actionsGap + "px";
+</script>
 
 </body>
 </html>
