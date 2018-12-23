@@ -116,6 +116,8 @@ html {
   padding-left: 0.6em;
   padding-right: 0.6em;
   border: 0.01em solid #fff435;
+  height: 7em;
+  overflow-y: auto;
 }
 
 .box{
