@@ -132,7 +132,45 @@ html {
   border-color: #7efd72;
 }*/
 
+.action{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.01em solid #fff435;
+  background-color: #301500;
+}
+
+.action:hover{
+  color: black;
+  border-color: #0ef;
+  background-color: #0ef;
+}
+
 .hover:hover{
-  color: #7efd72;
-  border-color: #7efd72;
+  color: #0ef;
+  border-color: #0ef;
+}
+
+.img-building{
+	background-image: url(building.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+}
+
+.img-chimneys{
+	background-image: url(chimneys.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+}
+
+.img-factory{
+	background-image: url(factory.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
 }
